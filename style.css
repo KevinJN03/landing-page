@@ -158,3 +158,62 @@ cite {
 .signup-btn2{
     border: 2px white solid
 }
+
+/* ResponsiveNess */
+
+@media screen and (max-width: 480px){
+
+   header > h1 {
+        font-size: 1.7rem
+   }
+   .nav-links {
+    font-size: 0.8rem;
+    gap: 2px;
+   }
+   
+   
+   
+    #first-section {
+    padding-top: 100px;
+        flex-direction: column;
+    }
+    img {
+
+        margin-top: 40px
+    }
+
+    #info > h1 {
+        font-size: 2rem;
+        padding-bottom: 20px
+    
+    }
+    #info > p {
+        font-size: 0.8rem;
+        
+
+    }
+    #info {
+        text-align: center
+    }
+
+    blockquote > p {
+        font-size: 1.5rem;
+        width:80vw
+    }
+    cite {
+        font-size: 1rem
+    }
+
+    #flex-container {
+        flex-direction: column;
+    }
+
+    #fourth-section {
+       font-size: 80% ;
+       
+    }
+    #fourth-section .container {
+        flex-direction: column;
+        width: 80%
+    }
+}
