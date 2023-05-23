@@ -144,7 +144,7 @@ cite {
 .container {
     background: #3882f6; 
     padding: 40px ;
-    width: 50%;
+    width: 60%;
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -156,7 +156,8 @@ cite {
     font-size: 0.8rem
 }
 .signup-btn2{
-    border: 2px white solid
+    border: 2px white solid;
+    
 }
 
 /* ResponsiveNess */
